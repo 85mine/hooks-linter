@@ -1,0 +1,25 @@
+#!/usr/bin/env bash
+
+. .git/hooks/modules/colors.sh
+. .git/hooks/modules/util.sh
+
+.git/hooks/modules/csslint.sh
+R1=$?
+.git/hooks/modules/jslint.sh
+R2=$?
+.git/hooks/modules/jsonlint.sh
+R3=$?
+.git/hooks/modules/phplint.sh
+R4=$?
+
+R=$(addNumbers $R1 $R2 $R3 $R4)
+
+if [ $R != 0 ]
+then
+    # printTable ',' "Ple${ORANGE}CSS $R1,JS $R2,JSON $R3,PHP $R4${NC}"
+    exit 1
+else
+    exit 0
+fi
+
+exit $?

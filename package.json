@@ -1,0 +1,37 @@
+{
+  "name": "hooks-linter",
+  "version": "1.0.0",
+  "description": "Code quality checking...",
+  "main": "dashboard.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kicc/hooks-linter.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kicc/hooks-linter/issues"
+  },
+  "homepage": "https://github.com/kicc/hooks-linter#readme",
+  "devDependencies": {
+    "eslint": "^4.19.1",
+    "eslint-config-prettier": "^2.9.0",
+    "eslint-plugin-prettier": "^2.6.0",
+    "jsonlint": "^1.6.3",
+    "postcss": "^6.0.22",
+    "postcss-reporter": "^5.0.0",
+    "prettier": "1.13.3",
+    "prettier-eslint": "^8.8.1",
+    "stylelint": "^8.4.0",
+    "stylelint-config-airbnb": "0.0.0",
+    "stylelint-config-recommended": "^2.1.0",
+    "stylelint-order": "^0.7.0",
+    "stylelint-scss": "^1.5.2"
+  },
+  "dependencies": {
+    "postcss-syntax": "^0.10.0"
+  }
+}

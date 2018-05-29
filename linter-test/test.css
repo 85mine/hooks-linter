@@ -1,0 +1,92 @@
+img.ui-datepicker-trigger {
+  margin-top: 4px;
+  margin-left: 4px;
+}
+
+#crm_create_user {
+  margin: 0;
+}
+
+#crm_create_user .checkbox-inline {
+  padding-left: 0;
+  padding-right: 20px;
+}
+
+label.checkbox-inline.no-padding {
+  padding: 0px;
+  margin-bottom: 5px;
+}
+
+.date-calendar.col-md-12.no-padding {
+  padding: 0px;
+}
+
+.col-md-6.col-sm-6.list-period-schedule.no-padding {
+  padding: 0px;
+}
+
+ul.create-store-coulumn-radio {
+  list-style-type: none;
+  column-count: 2;
+  padding: 0px;
+}
+
+span.mess-red {
+  color: red;
+}
+
+input.input-txt.form-control.required,
+ul.col-md-6.col-sm-6.item-input.no-padding.create-store-coulumn-radio.required {
+  color: #333333;
+  font-size: 14px;
+}
+
+label.mt-radio {
+  padding-right: 13px;
+}
+
+div.radio > label.mt-radio {
+  padding-left: 30px;
+}
+
+#formRadioCancel {
+  margin-top: 11px;
+}
+
+.no-border {
+  border: 0 !important;
+}
+
+table .label-checkbox {
+  margin-bottom: 0;
+}
+
+.form-inline.multi-line .form-group {
+  padding-bottom: 15px;
+}
+
+.form-inline .input-daterange .form-control {
+  width: 110px;
+}
+
+@media (min-width: 992px) {
+  .patient-search-btn {
+    margin-top: 25px;
+  }
+}
+
+@media (max-width: 480px) {
+  ul.pagination li {
+    display: none;
+  }
+
+  ul.pagination li:first-child,
+  ul.pagination li:last-child {
+    display: inline-block;
+  }
+
+  .btn-delete-customer {
+    position: absolute;
+    right: 10px;
+  }
+}
